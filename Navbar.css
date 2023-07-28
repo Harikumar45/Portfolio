@@ -1,0 +1,255 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar {
+    align-items: center;
+    background: #ffffff;
+    box-shadow: 0 4px 2px -2px rgba(253, 251, 251, 0);
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    z-index: 999;
+}
+
+.navbar.scrolled {
+    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.15);
+
+}
+
+.Logotext {
+    font-size: 24px;
+    font-weight: semibold;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin-left: 15%;
+    margin-top: -8%;
+}
+
+
+.MenuItem {
+    font-size: 17px;
+    cursor: pointer;
+    margin-right: 45px;
+    align-items: center;
+    display: flex;
+    color: #000000;
+}
+
+.MenuItem:hover {
+    color: #FF6412;
+}
+
+.MenuItems {
+    font-size: 17px;
+    cursor: pointer;
+    margin-right: 18px;
+    display: flex;
+    flex-direction: column;
+    color: #000000;
+    margin-top: 5%;
+}
+
+.MenuItems:hover {
+    color: #72838C;
+}
+
+.Buttonget {
+    font-size: 15px;
+    display: inline-block;
+    padding: 0.1em 0.7em;
+    border-radius: 2em;
+    border: 0.1em solid #000000;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #000000;
+    text-align: center;
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    margin-right: 18px;
+}
+
+.Buttonget:active {
+    background-color: #454545;
+}
+
+
+.Buttonlogin {
+    display: inline-block;
+    padding: 0.1em 0.7em;
+    border-radius: 2em;
+    border: 0.1em solid #A1A1A1;
+    text-decoration: none;
+    color: #000000;
+    background-color: transparent;
+    text-align: center;
+    cursor: pointer;
+    font-weight: semibold;
+    transition: all 0.2s;
+    display: flex;
+    margin-right: 18px;
+    align-items: center;
+}
+
+.Buttonlogin:hover {
+    background-color: #C3CACE;
+}
+
+.Buttonlogin:active {
+    background-color: #EBEDEF;
+}
+
+.Buttonlogins {
+    display: inline-block;
+    padding: 0.1em 0.7em;
+    border-radius: 2em;
+    border: 0.1em solid #A1A1A1;
+    text-decoration: none;
+    color: #000000;
+    background-color: transparent;
+    text-align: center;
+    cursor: pointer;
+    font-weight: semibold;
+    transition: all 0.2s;
+    display: flex;
+    margin-right: 18px;
+    justify-content: center;
+}
+
+.Buttonlogins:hover {
+    background-color: #C3CACE;
+}
+
+.Buttonlogins:active {
+    background-color: #EBEDEF;
+}
+
+@media screen and (max-width: 912px) {
+    .MenuItem {
+        display: none;
+    }
+
+    .Buttonget {
+        display: none;
+
+    }
+
+    .Buttonlogin {
+        display: none;
+    }
+
+    .Buttongets {
+        display: none;
+    }
+
+    .Buttonlogins {
+        margin-left: -15%;
+        height: 5%;
+        margin-top: 15%;
+        font-size: 12px;
+    }
+
+}
+
+.Buttongeto {
+    font-size: 15px;
+    display: inline-block;
+    padding: 0.1em 0.7em;
+    border-radius: 2em;
+    border: 0.1em solid #000000;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #000000;
+    text-align: center;
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    margin-right: 5%;
+    margin-top: 5%;
+    width: 40%;
+    justify-content: center;
+}
+
+.Buttongeto:active {
+    background-color: #454545;
+}
+
+
+.Buttonlogino {
+    display: inline-block;
+    padding: 0.1em 0.7em;
+    border-radius: 2em;
+    border: 0.1em solid #A1A1A1;
+    text-decoration: none;
+    color: #000000;
+    background-color: transparent;
+    text-align: center;
+    cursor: pointer;
+    font-weight: semibold;
+    transition: all 0.2s;
+    display: flex;
+    margin-top: 5%;
+    width: 40%;
+    justify-content: center;
+}
+
+.Buttonlogino:hover {
+    background-color: #C3CACE;
+}
+
+.Buttonlogino:active {
+    background-color: #EBEDEF;
+}
+
+@media screen and (max-width: 912px) {
+    .MenuItem {
+        display: none;
+    }
+
+    .Buttonget {
+        display: none;
+
+    }
+
+    .Buttonlogin {
+        display: none;
+    }
+
+    .Buttongets {
+        display: none;
+    }
+
+    .Buttonlogins {
+        margin-left: -15%;
+        height: 5%;
+        margin-top: 15%;
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (min-width: 913px) {
+    .Buttongets {
+        display: none;
+    }
+
+    .Buttonlogins {
+        display: none;
+    }
+
+    .Buttongeto {
+        display: none;
+    }
+
+    .Buttonlogino {
+        display: none;
+    }
+}
